@@ -15,6 +15,8 @@ int main(){
     ifstream infile("ECE 0301 - Circuits to Simulate.txt");
 
     ofstream outfile("ECE 0301 - Electrical Network Simulation.txt");
+    ofstream outfile("ECE 0301 - Electrical Network Reports.txt");
+    
     outfile << "ECE 0301 - Electrical Network Simulation" << endl;
 
     string line;
